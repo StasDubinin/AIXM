@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aixm:BasicMessage
+  xmlns:aixm="http://www.aixm.aero/schema/5.1"
+  xmlns:gml="http://www.opengis.net/gml/3.2"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.aixm.aero/schema/5.1 AIXM_BasicMessage.xsd"
+  gml:id="MSG.UBBL.Services.1">
+  <!-- AD Administration -->
+  <aixm:Service gml:id="UBBL.Service.AD">
+    <aixm:timeSlice>
+      <aixm:ServiceTimeSlice gml:id="UBBL.ServiceTimeSlice.AD.1">
+        <gml:validTime>
+          <gml:TimePeriod>
+            <gml:beginPosition>2025-10-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition indeterminatePosition="unknown"/>
+          </gml:TimePeriod>
+        </gml:validTime>
+
+        <aixm:interpretation>BASELINE</aixm:interpretation>
+        <aixm:type>AD</aixm:type>
+        <aixm:name>AD Administration</aixm:name>
+        <aixm:location xlink:href="#UBBL.AirportHeliport.1"/>
+
+        <aixm:availability>
+          <aixm:ServiceAvailability>
+            <aixm:Timesheet>
+              <aixm:day>MON TUE WED THU FRI</aixm:day>
+              <aixm:startTime>05:00</aixm:startTime>
+              <aixm:endTime>14:00</aixm:endTime>
+            </aixm:Timesheet>
+            <aixm:Timesheet>
+              <aixm:day>SAT SUN HOL</aixm:day>
+              <aixm:startTime>06:00</aixm:startTime>
+              <aixm:endTime>11:00</aixm:endTime>
+            </aixm:Timesheet>
+          </aixm:ServiceAvailability>
+        </aixm:availability>
+      </aixm:ServiceTimeSlice>
+    </aixm:timeSlice>
+  </aixm:Service>
+
+  <!-- Customs and immigration -->
+  <aixm:Service gml:id="UBBL.Service.CUS">
+    <aixm:timeSlice>
+      <aixm:ServiceTimeSlice gml:id="UBBL.ServiceTimeSlice.CUS.1">
+        <gml:validTime>
+          <gml:TimePeriod>
+            <gml:beginPosition>2025-10-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition indeterminatePosition="unknown"/>
+          </gml:TimePeriod>
+        </gml:validTime>
+
+        <aixm:interpretation>BASELINE</aixm:interpretation>
+        <aixm:type>CUS</aixm:type>
+        <aixm:name>Customs and Immigration</aixm:name>
+        <aixm:location xlink:href="#UBBL.AirportHeliport.1"/>
+
+        <aixm:availability>
+          <aixm:ServiceAvailability>
+            <aixm:Timesheet>
+              <aixm:day>ANY</aixm:day>
+              <aixm:annotation>
+                <aixm:Note>
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:note>HO</aixm:note>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:Timesheet>
+          </aixm:ServiceAvailability>
+        </aixm:availability>
+      </aixm:ServiceTimeSlice>
+    </aixm:timeSlice>
+  </aixm:Service>
+
+  <!-- Health and sanitation -->
+  <aixm:Service gml:id="UBBL.Service.SAN">
+    <aixm:timeSlice>
+      <aixm:ServiceTimeSlice gml:id="UBBL.ServiceTimeSlice.SAN.1">
+        <gml:validTime>
+          <gml:TimePeriod>
+            <gml:beginPosition>2025-10-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition indeterminatePosition="unknown"/>
+          </gml:TimePeriod>
+        </gml:validTime>
+
+        <aixm:interpretation>BASELINE</aixm:interpretation>
+        <aixm:type>SAN</aixm:type>
+        <aixm:name>Health and sanitation</aixm:name>
+        <aixm:location xlink:href="#UBBL.AirportHeliport.1"/>
+
+        <aixm:availability>
+          <aixm:ServiceAvailability>
+            <aixm:Timesheet>
+              <aixm:day>ANY</aixm:day>
+              <aixm:annotation>
+                <aixm:Note>
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:note>HO</aixm:note>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:Timesheet>
+          </aixm:ServiceAvailability>
+        </aixm:availability>
+      </aixm:ServiceTimeSlice>
+    </aixm:timeSlice>
+  </aixm:Service>
+
+  <!-- AIS Briefing office -->
+  <aixm:Service gml:id="UBBL.Service.AIS">
+    <aixm:timeSlice>
+      <aixm:ServiceTimeSlice gml:id="UBBL.ServiceTimeSlice.AIS.1">
+        <gml:validTime>
+          <gml:TimePeriod>
+            <gml:beginPosition>2025-10-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition indeterminatePosition="unknown"/>
+          </gml:TimePeriod>
+        </gml:validTime>
+
+        <aixm:interpretation>BASELINE</aixm:interpretation>
+        <aixm:type>AIS</aixm:type>
+        <aixm:name>AIS Briefing office</aixm:name>
+        <aixm:location xlink:href="#UBBL.AirportHeliport.1"/>
+
+        <aixm:availability>
+          <aixm:ServiceAvailability>
+            <aixm:Timesheet>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime>02:00</aixm:startTime>
+              <aixm:endTime>20:00</aixm:endTime>
+            </aixm:Timesheet>
+          </aixm:ServiceAvailability>
+        </aixm:availability>
+      </aixm:ServiceTimeSlice>
+    </aixm:timeSlice>
+  </aixm:Service>
+  
+  <!-- ATS Reporting office -->
+  <aixm:Service gml:id="UBBL.Service.ARO">
+    <aixm:timeSlice>
+      <aixm:ServiceTimeSlice gml:id="UBBL.ServiceTimeSlice.ARO.1">
+        <gml:validTime>
+          <gml:TimePeriod>
+            <gml:beginPosition>2025-10-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition indeterminatePosition="unknown"/>
+          </gml:TimePeriod>
+        </gml:validTime>
+
+        <aixm:interpretation>BASELINE</aixm:interpretation>
+        <aixm:type>ARO</aixm:type>
+        <aixm:name>ATS Reporting office (ARO)</aixm:name>
+        <aixm:location xlink:href="#UBBL.AirportHeliport.1"/>
+
+        <aixm:availability>
+          <aixm:ServiceAvailability>
+            <aixm:Timesheet>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime>02:00</aixm:startTime>
+              <aixm:endTime>20:00</aixm:endTime>
+            </aixm:Timesheet>
+          </aixm:ServiceAvailability>
+        </aixm:availability>
+      </aixm:ServiceTimeSlice>
+    </aixm:timeSlice>
+  </aixm:Service>
+
+  <!-- MET Briefing office -->
+  <aixm:Service gml:id="UBBL.Service.MET">
+    <aixm:timeSlice>
+      <aixm:ServiceTimeSlice gml:id="UBBL.ServiceTimeSlice.MET.1">
+        <gml:validTime>
+          <gml:TimePeriod>
+            <gml:beginPosition>2025-10-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition indeterminatePosition="unknown"/>
+          </gml:TimePeriod>
+        </gml:validTime>
+
+        <aixm:interpretation>BASELINE</aixm:interpretation>
+        <aixm:type>MET</aixm:type>
+        <aixm:name>MET Briefing office</aixm:name>
+        <aixm:location xlink:href="#UBBL.AirportHeliport.1"/>
+
+        <aixm:availability>
+          <aixm:ServiceAvailability>
+            <aixm:Timesheet>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime>02:00</aixm:startTime>
+              <aixm:endTime>20:00</aixm:endTime>
+            </aixm:Timesheet>
+          </aixm:ServiceAvailability>
+        </aixm:availability>
+      </aixm:ServiceTimeSlice>
+    </aixm:timeSlice>
+  </aixm:Service>
+
+  <!-- Fueling -->
+  <aixm:Service gml:id="UBBL.Service.FUEL">
+    <aixm:timeSlice>
+      <aixm:ServiceTimeSlice gml:id="UBBL.ServiceTimeSlice.FUEL.1">
+        <gml:validTime>
+          <gml:TimePeriod>
+            <gml:beginPosition>2025-10-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition indeterminatePosition="unknown"/>
+          </gml:TimePeriod>
+        </gml:validTime>
+
+        <aixm:interpretation>BASELINE</aixm:interpretation>
+        <aixm:type>FUEL</aixm:type>
+        <aixm:name>Fuelling</aixm:name>
+        <aixm:location xlink:href="#UBBL.AirportHeliport.1"/>
+
+        <aixm:availability>
+          <aixm:ServiceAvailability>
+            <aixm:Timesheet>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+              <aixm:endTime xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+              <aixm:annotation>
+                <aixm:Note>
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:note>HO</aixm:note>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:Timesheet>
+          </aixm:ServiceAvailability>
+        </aixm:availability>
+      </aixm:ServiceTimeSlice>
+    </aixm:timeSlice>
+  </aixm:Service>
+
+  <!-- Handling -->
+  <aixm:Service gml:id="UBBL.Service.HAND">
+    <aixm:timeSlice>
+      <aixm:ServiceTimeSlice gml:id="UBBL.ServiceTimeSlice.HAND.1">
+        <gml:validTime>
+          <gml:TimePeriod>
+            <gml:beginPosition>2025-10-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition indeterminatePosition="unknown"/>
+          </gml:TimePeriod>
+        </gml:validTime>
+
+        <aixm:interpretation>BASELINE</aixm:interpretation>
+        <aixm:type>HAND</aixm:type>
+        <aixm:name>Handling</aixm:name>
+        <aixm:location xlink:href="#UBBL.AirportHeliport.1"/>
+
+        <aixm:availability>
+          <aixm:ServiceAvailability>
+            <aixm:Timesheet>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime>02:00</aixm:startTime>
+              <aixm:endTime>20:00</aixm:endTime>
+            </aixm:Timesheet>
+          </aixm:ServiceAvailability>
+        </aixm:availability>
+      </aixm:ServiceTimeSlice>
+    </aixm:timeSlice>
+  </aixm:Service>
+
+  <!-- Security -->
+  <aixm:Service gml:id="UBBL.Service.SECUR">
+    <aixm:timeSlice>
+      <aixm:ServiceTimeSlice gml:id="UBBL.ServiceTimeSlice.SECUR.1">
+        <gml:validTime>
+          <gml:TimePeriod>
+            <gml:beginPosition>2025-10-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition indeterminatePosition="unknown"/>
+          </gml:TimePeriod>
+        </gml:validTime>
+
+        <aixm:interpretation>BASELINE</aixm:interpretation>
+        <aixm:type>SECUR</aixm:type>
+        <aixm:name>Security</aixm:name>
+        <aixm:location xlink:href="#UBBL.AirportHeliport.1"/>
+
+        <aixm:availability>
+          <aixm:ServiceAvailability>
+            <aixm:Timesheet>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime>02:00</aixm:startTime>
+              <aixm:endTime>20:00</aixm:endTime>
+            </aixm:Timesheet>
+          </aixm:ServiceAvailability>
+        </aixm:availability>
+      </aixm:ServiceTimeSlice>
+    </aixm:timeSlice>
+  </aixm:Service>
+
+  <!-- De-icing -->
+  <aixm:Service gml:id="UBBL.Service.ICE">
+    <aixm:timeSlice>
+      <aixm:ServiceTimeSlice gml:id="UBBL.ServiceTimeSlice.ICE.1">
+        <gml:validTime>
+          <gml:TimePeriod>
+            <gml:beginPosition>2025-10-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition indeterminatePosition="unknown"/>
+          </gml:TimePeriod>
+        </gml:validTime>
+
+        <aixm:interpretation>BASELINE</aixm:interpretation>
+        <aixm:type>ICE</aixm:type>
+        <aixm:name>De-icing</aixm:name>
+        <aixm:location xlink:href="#UBBL.AirportHeliport.1"/>
+
+        <aixm:availability>
+          <aixm:ServiceAvailability>
+            <aixm:Timesheet>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime>02:00</aixm:startTime>
+              <aixm:endTime>20:00</aixm:endTime>
+            </aixm:Timesheet>
+          </aixm:ServiceAvailability>
+        </aixm:availability>
+      </aixm:ServiceTimeSlice>
+    </aixm:timeSlice>
+  </aixm:Service>
+
+</aixm:BasicMessage>
+

@@ -1,0 +1,503 @@
+<airport>
+  <name>Ganja International</name>
+  <designator>UBBG</designator>
+  <type>INTL</type>
+  <validTime>2025-01-01T00:00:00Z</validTime>
+</airport>
+
+<!--  -->
+
+<aixm:ARP>
+  <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326">
+    <gml:pos>41.3236 47.5473</gml:pos>
+    <aixm:elevation uom="FT">5701</aixm:elevation>
+    <aixm:verticalDatum>MSL</aixm:verticalDatum>
+  </aixm:ElevatedPoint>
+</aixm:ARP>
+
+<!--  -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<aixm:AirportHeliport
+  xmlns:aixm="http://www.aixm.aero/schema/5.1"
+  xmlns:gml="http://www.opengis.net/gml/3.2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  gml:id="ah1"
+  xsi:schemaLocation="http://www.aixm.aero/schema/5.1 AIXM_BasicMessage.xsd">
+  <!-- content -->
+</aixm:AirportHeliport>
+
+<!--  -->
+
+<aixm:Airspace gml:id="asp3">
+  <aixm:timeSlice>
+    <aixm:AirspaceTimeSlice>
+      <gml:validTime>
+        <gml:TimePeriod>
+          <gml:beginPosition>2025-01-01T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:designator>UBBG</aixm:designator>
+      <aixm:name>Ganja International Airport</aixm:name>
+      <aixm:type>UIR</aixm:type>
+    </aixm:AirspaceTimeSlice>
+  </aixm:timeSlice>
+</aixm:Airspace>
+
+<aixm:Airspace gml:id="asp4">
+  <aixm:timeSlice>
+    <aixm:AirspaceTimeSlice>
+      <gml:validTime>
+        <gml:TimePeriod>
+          <gml:beginPosition>2025-01-01T10:00:00Z</gml:beginPosition>
+          <gml:endPosition>2025-01-01T14:00:00Z</gml:endPosition>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>TEMPDELTA</aixm:interpretation>
+      <aixm:designator>UBBG</aixm:designator>
+      <aixm:type>R</aixm:type>
+      <aixm:activation>
+        <aixm:Activation>
+          <aixm:status>CLOSED</aixm:status>
+        </aixm:Activation>
+      </aixm:activation>
+    </aixm:AirspaceTimeSlice>
+  </aixm:timeSlice>
+</aixm:Airspace>
+
+<!--  -->
+
+<aixm:AirportHeliport gml:id="ap1">
+    <aixm:timeSlice>
+        <aixm:AirportHeliportTimeSlice>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:beginPosition>2025-05-21T11:00:00Z</gml:beginPosition>
+                    <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <aixm:interpretation>BASELINE</aixm:interpretation>
+            <aixm:designator>UBBG</aixm:designator>
+            <aixm:name>Ganja International Airport</aixm:name>
+            <aixm:type>INTL</aixm:type>
+            <aixm:fieldElevation uom="FT">1083</aixm:fieldElevation>
+            <aixm:ARP>
+                <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326">
+                    <gml:pos>41.3236 47.5473</gml:pos>
+                    <aixm:elevation uom="FT">1090</aixm:elevation>
+                    <aixm:verticalDatum>MSL</aixm:verticalDatum>
+                </aixm:ElevatedPoint>
+            </aixm:ARP>
+        </aixm:AirportHeliportTimeSlice>
+    </aixm:timeSlice>
+</aixm:AirportHeliport>
+
+<!--  -->
+
+<aixm:AirspaceVolume>
+    <aixm:horizontalProjection>
+        <gml:Polygon gml:id="polygon1" srsName="urn:ogc:def:crs:EPSG::4326">
+            <gml:exterior>
+                <gml:LinearRing>
+                    <gml:posList>
+                        41.33 46.34 41.47 46.56 41.21 46.13 41.33 46.34
+                    </gml:posList>
+                </gml:LinearRing>
+            </gml:exterior>
+        </gml:Polygon>
+    </aixm:horizontalProjection>
+
+    <aixm:lowerLimit uom="FT">3500</aixm:lowerLimit>
+    <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+
+    <aixm:upperLimit uom="FT">9500</aixm:upperLimit>
+    <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+
+</aixm:AirspaceVolume>
+<!-- Рекомендуется замыкать полигон для топологии -->
+
+<!--  -->
+
+<aixm:Airspace gml:id="asp6">
+    <aixm:timeSlice>
+        <!-- BASELINE -->
+        <aixm:AirspaceTimeSlice>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:beginPosition>2023-01-01T00:00:00Z</gml:beginPosition>
+                    <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <aixm:interpretation>BASELINE</aixm:interpretation>
+            <aixm:designator>UBBB-TMA</aixm:designator>
+            <aixm:type>TMA</aixm:type>
+            <aixm:upperLimit uom="FT">10500</aixm:upperLimit>
+            <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+        </aixm:AirspaceTimeSlice>
+        <!-- PERMDELTA -->
+        <aixm:AirspaceTimeSlice>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:beginPosition>2025-01-01T00:00:00Z</gml:beginPosition>
+                    <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <aixm:interpretation>PERMDELTA</aixm:interpretation>
+            <aixm:upperLimit uom="FT">12500</aixm:upperLimit>
+        </aixm:AirspaceTimeSlice>
+        <!-- TEMPDELTA -->
+        <aixm:AirspaceTimeSlice>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:beginPosition>2025-04-01T06:00:00Z</gml:beginPosition>
+                    <gml:endPosition>2025-04-01T18:00:00Z</gml:endPosition>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <aixm:interpretation>TEMPDELTA</aixm:interpretation>
+            <aixm:type>R</aixm:type>
+            <aixm:activation>
+                <aixm:Activation>
+                    <aixm:status>ACTIVE</aixm:status>
+                </aixm:Activation>
+            </aixm:activation>
+        </aixm:AirspaceTimeSlice>
+    </aixm:timeSlice>
+</aixm:Airspace>
+
+<!--  -->
+
+<aixm:Airspace gml:id="asp8">
+    <aixm:timeSlice>
+
+        <!-- BASELINE -->
+        <aixm:AirspaceTimeSlice>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:beginPosition>2024-01-01T00:00:00Z</gml:beginPosition>
+                    <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <aixm:interpretation>BASELINE</aixm:interpretation>
+            <aixm:designator>UBBA-CTR</aixm:designator>
+            <aixm:type>CTR</aixm:type>
+            <aixm:correctionNumber>0</aixm:correctionNumber>
+        </aixm:AirspaceTimeSlice>
+
+        <!-- UPDATE -->
+        <aixm:AirspaceTimeSlice>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:beginPosition>2024-01-01T00:00:00Z</gml:beginPosition>
+                    <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <aixm:interpretation>UPDATE</aixm:interpretation>
+            <aixm:name>Baku Control Zone</aixm:name>
+            <aixm:correctionNumber>1</aixm:correctionNumber>
+        </aixm:AirspaceTimeSlice>
+
+        <!-- CORRECTION -->
+        <aixm:AirspaceTimeSlice>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:beginPosition>2024-01-01T00:00:00Z</gml:beginPosition>
+                    <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <aixm:interpretation>CORRECTION</aixm:interpretation>
+            <aixm:designator>UBBB-CTR</aixm:designator>
+            <aixm:correctionNumber>2</aixm:correctionNumber>
+        </aixm:AirspaceTimeSlice>
+
+        <!-- SNAPSOT -->
+        <aixm:AirspaceTimeSlice>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:beginPosition>2025-05-27T00:00:00Z</gml:beginPosition>
+                    <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <aixm:interpretation>SNAPSHOT</aixm:interpretation>
+            <aixm:designator>UBBB-CTR</aixm:designator>
+            <aixm:type>CTR</aixm:type>
+            <aixm:name>Baku Control Zone</aixm:name>
+            <aixm:correctionNumber>2</aixm:correctionNumber>
+        </aixm:AirspaceTimeSlice>
+    
+    </aixm:timeSlice>
+</aixm:Airspace>
+
+<!--  -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- AIRPORTHELIPORT -->
+<aixm:AirportHeliport
+    xmlns:aixm="http://www.aixm.aero/schema/5.1"
+    xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1 AIXM_BasicMessage.xsd"
+    gml:id="ap2">
+    <aixm:timeSlice>
+        <!-- BASELINE -->
+        <aixm:AirportHeliportTimeSlice>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:beginPosition>2023-01-01T00:00:00Z</gml:beginPosition>
+                    <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <aixm:interpretation>BASELINE</aixm:interpretation>
+            <aixm:designator>UBBBa</aixm:designator>
+            <aixm:type>INTL</aixm:type>
+            <aixm:ARP>
+                <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326">
+                    <gml:pos>41.4524 47.5623</gml:pos>
+                    <aixm:elevation uom="FT">530</aixm:elevation>
+                    <aixm:verticalDatum>MSL</aixm:verticalDatum>
+                </aixm:ElevatedPoint>
+            </aixm:ARP>
+        </aixm:AirportHeliportTimeSlice>
+        <!-- UPDATE -->
+        <aixm:AirportHeliportTimeSlice>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:beginPosition>2023-01-01T00:00:00Z</gml:beginPosition>
+                    <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <aixm:name>Heydar Aliyev International Airport</aixm:name>
+            <aixm:correctionNumber>1</aixm:correctionNumber>
+        </aixm:AirportHeliportTimeSlice>
+        <!-- CORRECTION -->
+        <aixm:AirportHeliportTimeSlice>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:beginPosition>2023-01-01T00:00:00Z</gml:beginPosition>
+                    <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <aixm:designator>UBBB</aixm:designator>
+            <aixm:correctionNumber>2</aixm:correctionNumber>
+        </aixm:AirportHeliportTimeSlice>
+        <!-- PERMDELTA -->
+        <aixm:AirportHeliportTimeSlice>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:beginPosition>2023-05-01T06:00:00Z</gml:beginPosition>
+                    <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <aixm:interpretation>PERMDELTA</aixm:interpretation>
+            <aixm:ARP>
+                <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326">
+                    <aixm:elevation uom="FT">540</aixm:elevation>
+                    <aixm:verticalDatum>MSL</aixm:verticalDatum>
+                </aixm:ElevatedPoint>
+            </aixm:ARP>
+            <aixm:correctionNumber>0</aixm:correctionNumber>
+        </aixm:AirportHeliportTimeSlice>
+    </aixm:timeSlice>
+</aixm:AirportHeliport>
+<!-- AIRSPACE -->
+<aixm:Airspace gml:id="asp2">
+    <aixm:timeSlice>
+    <!-- BASELINE -->
+        <aixm:AirspaceTimeSlice>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:beginPosition>2023-01-01T00:00:00Z</gml:beginPosition>
+                    <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <aixm:interpretation>BASELINE</aixm:interpretation>
+            <aixm:designator>UBBA_CTR</aixm:designator>
+            <aixm:type>CTL</aixm:type>
+            <aixm:AirspaceVolume>
+                <aixm:horizontalProjection>
+                    <gml:Polygon gml:id="polygon1" srsName="urn:ogc:def:crs:EPSG::4326">
+                        <gml:exterior>
+                            <gml:LinearRing>
+                                <gml:posList>
+                                    41.33 46.34 41.47 46.56 41.21 46.13 41.33 46.34
+                                </gml:posList>
+                            </gml:LinearRing>
+                        </gml:exterior>
+                    </gml:Polygon>
+                </aixm:horizontalProjection>
+                <aixm:lowerLimit uom="FT">3500</aixm:lowerLimit>
+                <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+                <aixm:upperLimit uom="FT">9500</aixm:upperLimit>
+                <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+            </aixm:AirspaceVolume>
+            <aixm:correctionNumber>0</aixm:correctionNumber>
+        </aixm:AirspaceTimeSlice>
+        <!-- UPDATE -->
+        <aixm:AirspaceTimeSlice>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:beginPosition>2023-01-01T00:00:00Z</gml:beginPosition>
+                    <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <aixm:interpretation>UPDATE</aixm:interpretation>
+            <aixm:name>Baku Control Zone</aixm:name>
+            <aixm:correctionNumber>1</aixm:correctionNumber>
+        </aixm:AirspaceTimeSlice>
+        <!-- CORRECTION -->
+        <aixm:AirspaceTimeSlice>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:beginPosition>2023-01-01T00:00:00Z</gml:beginPosition>
+                    <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <aixm:interpretation>CORRECTION</aixm:interpretation>
+            <aixm:designator>UBBB-CTR</aixm:designator>
+            <aixm:type>CTR</aixm:type>
+            <aixm:correctionNumber>2</aixm:correctionNumber>
+        </aixm:AirspaceTimeSlice>
+        <!-- PERMDELTA -->
+        <aixm:AirspaceTimeSlice>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:beginPosition>2023-05-01T06:00:00Z</gml:beginPosition>
+                    <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <aixm:interpretation>PERMDELTA</aixm:interpretation>
+            <aixm:AirspaceVolume>
+                <aixm:lowerLimit uom="FT">4000</aixm:lowerLimit>
+                <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+            </aixm:AirspaceVolume>
+            <aixm:correctionNumber>0</aixm:correctionNumber>
+        </aixm:AirspaceTimeSlice>
+    </aixm:timeSlice>
+</aixm:Airspace>
+
+<!--  -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- AirportHeliport -->
+<aixm:AirportHeliport
+    xmlns:aixm="http://www.aixm.aero/schema/5.1"
+    xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1 AIXM_BasicMessage.xsd"
+    gml:id="ap2">
+    <aixm:timeSlice>
+        <!-- BASELINE -->
+        <aixm:AirportHeliportTimeSlice>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:beginPosition>2025-01-01T00:00:00Z</gml:beginPosition>
+                    <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <aixm:interpretation>BASELINE</aixm:interpretation>
+            <aixm:designator>UBBU</aixm:designator>
+            <aixm:name>Baku International Airport</aixm:name>
+            <aixm:type>INTL</aixm:type>
+            <aixm:ARP>
+                <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326">
+                    <gml:pos>41.3236 47.5473</gml:pos>
+                    <aixm:elevation uom="FT">503</aixm:elevation>
+                    <aixm:verticalDatum>MSL</aixm:verticalDatum>
+                </aixm:ElevatedPoint>
+            </aixm:ARP>
+            <aixm:correctionNumber>0</aixm:correctionNumber>
+        </aixm:AirportHeliportTimeSlice>
+        <!-- CORRECTION-->
+        <aixm:AirportHeliportTimeSlice>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:beginPosition>2025-01-01T00:00:00Z</gml:beginPosition>
+                    <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <aixm:designator>UBBB</aixm:designator>
+            <aixm:correctionNumber>1</aixm:correctionNumber>
+        </aixm:AirportHeliportTimeSlice>
+    </aixm:timeSlice>
+</aixm:AirportHeliport>
+<!-- Airspace -->
+<aixm:Airspace gml:id="asp10">
+    <aixm:timeSlice>
+        <!-- BASELINE -->
+        <aixm:AirspaceTimeSlice>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:beginPosition>2025-01-01T00:00:00Z</gml:beginPosition>
+                    <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <aixm:interpretation>BASELINE</aixm:interpretation>
+            <aixm:designator>UBBB-CTR</aixm:designator>
+            <aixm:type>CTR</aixm:type>
+            <aixm:name>Baku Control Zone</aixm:name>
+            <aixm:upperLimit uom="FT">9500</aixm:upperLimit>
+            <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+            <aixm:correctionNumber>0</aixm:correctionNumber>
+        </aixm:AirspaceTimeSlice>
+        <!-- PERMDELTA -->
+        <aixm:AirspaceTimeSlice>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:beginPosition>2026-01-01T00:00:00Z</gml:beginPosition>
+                    <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <aixm:interpretation>PERMDELTA</aixm:interpretation>
+            <aixm:upperLimit uom="FT">12500</aixm:upperLimit>
+            <aixm:correctionNumber>0</aixm:correctionNumber>
+        </aixm:AirspaceTimeSlice>
+        <!-- TEMPDELTA -->
+        <aixm:AirspaceTimeSlice>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:beginPosition>2025-09-20T10:00:00Z</gml:beginPosition>
+                    <gml:endPosition>2025-09-20T14:00:00Z</gml:endPosition>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <aixm:interpretation>TEMPDELTA</aixm:interpretation>
+            <aixm:type>R</aixm:type>
+            <aixm:activation>
+                <aixm:activation>
+                    <aixm:status>ACTIVE</aixm:status>
+                </aixm:activation>
+            </aixm:activation>
+            <aixm:correctionNumber>0</aixm:correctionNumber>
+        </aixm:AirspaceTimeSlice>
+        <!-- SNAPSHOT -->
+        <aixm:AirportHeliportTimeSlice>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:beginPosition>2025-10-01T00:00:00Z</gml:beginPosition>
+                    <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <aixm:interpretation>SNAPSHOT</aixm:interpretation>
+            <aixm:designator>UBBB</aixm:designator>
+            <aixm:name>Baku International Airport</aixm:name>
+            <aixm:type>INTL</aixm:type>
+            <aixm:ARP>
+                <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326">
+                    <gml:pos>41.3236 47.5473</gml:pos>
+                    <aixm:elevation uom="FT">503</aixm:elevation>
+                    <aixm:verticalDatum>MSL</aixm:verticalDatum>
+                </aixm:ElevatedPoint>
+            </aixm:ARP>
+            <aixm:correctionNumber>1</aixm:correctionNumber>
+        </aixm:AirportHeliportTimeSlice>
+        <aixm:AirspaceTimeSlice>
+            <aixm:interpretation>SNAPSHOT</aixm:interpretation>
+            <aixm:designator>UBBB-CTR</aixm:designator>
+            <aixm:type>CTR</aixm:type>
+            <aixm:name>Baku Control Zone</aixm:name>
+            <aixm:upperLimit uom="FT">9500</aixm:upperLimit>
+            <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+            <aixm:correctionNumber>0</aixm:correctionNumber>
+        </aixm:AirspaceTimeSlice>
+    </aixm:timeSlice>
+</aixm:Airspace>

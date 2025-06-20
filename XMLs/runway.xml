@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RWY 15/33 itself -->
+<aixm:Runway 
+    xmlns:aixm="http://www.aixm.aero/schema/5.1"
+    xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    gml:id="UBBL.Runway.15-33">
+
+  <aixm:timeSlice>
+    <aixm:RunwayTimeSlice gml:id="UBBL.RunwayTimeSlice.15-33.1">
+      <gml:validTime>
+        <gml:TimePeriod>
+          <gml:beginPosition>2025-10-01T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:designator>15/33</aixm:designator>
+      <aixm:surfaceComposition>ASPHALT-CONCRETE</aixm:surfaceComposition>
+
+      <aixm:strength>
+        <aixm:PavementClassification>
+          <aixm:pcnValue>150</aixm:pcnValue>
+          <aixm:pcnValuePavementType>FLEXIBLE</aixm:pcnValuePavementType>
+          <aixm:pcnSubgradeStrength>HIGH</aixm:pcnSubgradeStrength>
+          <aixm:pcnTirePressure>UNLIMITED</aixm:pcnTirePressure>
+          <aixm:pcnEvaluationMethod>TECHNICAL</aixm:pcnEvaluationMethod>
+        </aixm:PavementClassification>
+      </aixm:strength>
+
+    </aixm:RunwayTimeSlice>
+  </aixm:timeSlice>
+</aixm:Runway>
+
+<!-- RWY 15 direction -->
+<aixm:RunwayDirection gml:id="UBBL.RunwayDirection.15">
+  <aixm:timeSlice>
+    <aixm:RunwayDirectionTimeSlice gml:id="UBBL.RunwayDirectionTimeSlice.15.1">
+
+      <gml:validTime>
+        <gml:TimePeriod>
+          <gml:beginPosition>2025-10-01T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:designator>15</aixm:designator>
+      <aixm:trueBearing uom="deg">151.03</aixm:trueBearing>
+      <aixm:length uom="M">3300</aixm:length>
+      <aixm:width uom="M">45</aixm:width>
+      <aixm:slope uom="PERCENT">+0.15</aixm:slope>
+      <aixm:touchDownZoneElevation uom="FT">-53</aixm:touchDownZoneElevation>
+
+      <aixm:touchDownLiftOff>
+        <aixm:TouchDownLiftOff gml:id="UBBL.thr.15">
+          <gml:pos srsName="urn:ogc:def:crs:EPSG::4326">38,771723 48,797119</gml:pos>
+          <aixm:elevation uom="FT">-52</aixm:elevation>
+          <aixm:geoidUndulation uom="FT">13</aixm:geoidUndulation>
+        </aixm:TouchDownLiftOff>
+      </aixm:touchDownLiftOff>
+
+      <aixm:runwayEnd>
+        <aixm:RunwayCentrelinePoint gml:id="UBBL.RWY15.End">
+          <gml:pos srsName="urn:ogc:def:crs:EPSG::4326">38,745705 48,8155</gml:pos>
+        </aixm:RunwayCentrelinePoint>
+      </aixm:runwayEnd>
+
+      <aixm:stopway>
+        <aixm:Stopway>
+          <aixm:length uom="M">60</aixm:length>
+          <aixm:width uom="M">45</aixm:width>
+        </aixm:Stopway>
+      </aixm:stopway>
+
+      <aixm:clearway>
+        <aixm:Clearway>
+          <aixm:length uom="M">300</aixm:length>
+          <aixm:width uom="M">160</aixm:width>
+        </aixm:Clearway>
+      </aixm:clearway>
+
+      <aixm:strip>
+        <aixm:RunwayStrip>
+          <aixm:length uom="M">3540</aixm:length>
+          <aixm:width uom="M">280</aixm:width>
+        </aixm:RunwayStrip>
+      </aixm:strip>
+
+      <aixm:resa>
+        <aixm:Resa>
+          <aixm:length uom="M">90</aixm:length>
+          <aixm:width uom="M">90</aixm:width>
+        </aixm:Resa>
+      </aixm:resa>
+
+      <aixm:obstacleFreeZone>
+        <aixm:ObstacleFreeZone>
+          <aixm:existence>YES</aixm:existence>
+        </aixm:ObstacleFreeZone>
+      </aixm:obstacleFreeZone>
+
+      <aixm:annotation>
+        <aixm:Note>
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:note>Stopway slope: +0.15%</aixm:note>
+        </aixm:Note>
+      </aixm:annotation>
+
+    </aixm:RunwayDirectionTimeSlice>
+  </aixm:timeSlice>
+</aixm:RunwayDirection>
+
+<!-- RWY 33 direction -->
+<aixm:RunwayDirection gml:id="UBBL.RunwayDirection.33">
+  <aixm:timeSlice>
+    <aixm:RunwayDirectionTimeSlice gml:id="UBBL.RunwayDirectionTimeSlice.33.1">
+
+      <gml:validTime>
+        <gml:TimePeriod>
+          <gml:beginPosition>2025-10-01T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:designator>33</aixm:designator>
+      <aixm:trueBearing uom="deg">331.03</aixm:trueBearing>
+      <aixm:length uom="M">3300</aixm:length>
+      <aixm:width uom="M">45</aixm:width>
+      <aixm:slope uom="PERCENT">+0.15</aixm:slope>
+      <aixm:touchDownZoneElevation uom="FT">-38</aixm:touchDownZoneElevation>
+
+      <aixm:touchDownLiftOff>
+        <aixm:TouchDownLiftOff gml:id="UBBL.thr.33">
+          <gml:pos srsName="urn:ogc:def:crs:EPSG::4326">38,745705 48,8155</gml:pos>
+          <aixm:elevation uom="FT">-35</aixm:elevation>
+          <aixm:geoidUndulation uom="FT">11</aixm:geoidUndulation>
+        </aixm:TouchDownLiftOff>
+      </aixm:touchDownLiftOff>
+
+      <aixm:runwayEnd>
+        <aixm:RunwayCentrelinePoint gml:id="UBBL.RWY33.End">
+          <gml:pos srsName="urn:ogc:def:crs:EPSG::4326">38,771723 48,797119</gml:pos>
+        </aixm:RunwayCentrelinePoint>
+      </aixm:runwayEnd>
+
+      <aixm:stopway>
+        <aixm:Stopway>
+          <aixm:length uom="M">60</aixm:length>
+          <aixm:width uom="M">45</aixm:width>
+        </aixm:Stopway>
+      </aixm:stopway>
+
+      <aixm:clearway>
+        <aixm:Clearway>
+          <aixm:length uom="M">300</aixm:length>
+          <aixm:width uom="M">160</aixm:width>
+        </aixm:Clearway>
+      </aixm:clearway>
+
+      <aixm:strip>
+        <aixm:RunwayStrip>
+          <aixm:length uom="M">3540</aixm:length>
+          <aixm:width uom="M">280</aixm:width>
+        </aixm:RunwayStrip>
+      </aixm:strip>
+
+      <aixm:resa>
+        <aixm:Resa>
+          <aixm:length uom="M">90</aixm:length>
+          <aixm:width uom="M">90</aixm:width>
+        </aixm:Resa>
+      </aixm:resa>
+
+      <aixm:obstacleFreeZone>
+        <aixm:ObstacleFreeZone>
+          <aixm:existence>YES</aixm:existence>
+        </aixm:ObstacleFreeZone>
+      </aixm:obstacleFreeZone>
+
+      <aixm:annotation>
+        <aixm:Note>
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:note>Stopway slope: +0.15%</aixm:note>
+        </aixm:Note>
+      </aixm:annotation>
+
+    </aixm:RunwayDirectionTimeSlice>
+  </aixm:timeSlice>
+</aixm:RunwayDirection>

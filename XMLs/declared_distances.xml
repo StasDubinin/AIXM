@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- DECLARED DISTANCE RWY 15 -->
+<aixm:DeclaredDistance
+  xmlns:aixm="http://www.aixm.aero/schema/5.1"
+  xmlns:gml="http://www.opengis.net/gml/3.2"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  gml:id="UBBL.DeclaredDistance.15">
+  <aixm:timeSlice>
+    <aixm:DeclaredDistanceTimeSlice gml:id="UBBL.DeclaredDistanceTimeSlice.15.1">
+      <gml:validTime>
+        <gml:TimePeriod>
+          <gml:beginPosition>2025-10-01T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:direction xlink:href="#UBBL.RunwayDirection.15"/>
+      <aixm:tora uom="M">3300</aixm:tora>
+      <aixm:toda uom="M">3600</aixm:toda>
+      <aixm:asda uom="M">3360</aixm:asda>
+      <aixm:lda uom="M">3300</aixm:lda>
+
+    </aixm:DeclaredDistanceTimeSlice>
+  </aixm:timeSlice>
+</aixm:DeclaredDistance>
+
+<!-- DECLARED DISTANCE RWY 33 -->
+<aixm:DeclaredDistance
+  xmlns:aixm="http://www.aixm.aero/schema/5.1"
+  xmlns:gml="http://www.opengis.net/gml/3.2"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  gml:id="UBBL.DeclaredDistance.33">
+  <aixm:timeSlice>
+    <aixm:DeclaredDistanceTimeSlice gml:id="UBBL.DeclaredDistanceTimeSlice.33.1">
+      <gml:validTime>
+        <gml:TimePeriod>
+          <gml:beginPosition>2025-10-01T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:direction xlink:href="#UBBL.RunwayDirection.33"/>
+      <aixm:tora uom="M">3300</aixm:tora>
+      <aixm:toda uom="M">3600</aixm:toda>
+      <aixm:asda uom="M">3360</aixm:asda>
+      <aixm:lda uom="M">3300</aixm:lda>
+
+    </aixm:DeclaredDistanceTimeSlice>
+  </aixm:timeSlice>
+</aixm:DeclaredDistance>
