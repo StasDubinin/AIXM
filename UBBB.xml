@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aixm:BasicMessage
+  xmlns:aixm="http://www.aixm.aero/schema/5.1"
+  xmlns:gml="http://www.opengis.net/gml/3.2"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:uuid="http://www.aixm.aero/schema/uuid"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.aixm.aero/schema/5.1 AIXM_BasicMessage.xsd"
+  gml:id="DSV.Database">
+
+  <aixm:responsibleOrganisation>
+    <aixm:OrganisationAuthority gml:id="ORG.Azerbaijan.CAA">
+      <aixm:timeSlice>
+        <aixm:OrganisationAuthorityTimeSlice gml:id="ORG.Azerbaijan.CAA.TS">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="ORG.Azerbaijan.CAA.TP">
+              <gml:beginPosition>2026-01-01T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:name>Civil Aviation Authority of Azerbaijan</aixm:name>
+        </aixm:OrganisationAuthorityTimeSlice>
+      </aixm:timeSlice>
+    </aixm:OrganisationAuthority>
+  </aixm:responsibleOrganisation>
+
+  <aixm:AirportHeliport gml:id="AD.UBBB">
+    <aixm:timeSlice>
+      <aixm:AirportHeliportTimeSlice gml:id="AD.UBBB.TS">
+
+        <gml:validTime>
+          <gml:TimePeriod gml:id="AD.UBBB.TP">
+            <gml:beginPosition>2026-01-01T00:00:00</gml:beginPosition>
+            <gml:endPosition indeterminatePosition="unknown"/>
+          </gml:TimePeriod>
+        </gml:validTime>
+
+        <aixm:interpretation>BASELINE</aixm:interpretation>
+        <aixm:sequenceNumber>1</aixm:sequenceNumber>
+        <aixm:locationIndicatorICAO>UBBB</aixm:locationIndicatorICAO>
+        <aixm:name>Heydar Aliyev International Airport</aixm:name>
+        <aixm:type>AIRPORT</aixm:type>
+
+        <aixm:ARP>
+          <aixm:ElevatedPoint gml:id="AD.UBBB.ARP">
+            <gml:pos>40.469722 50.051389</gml:pos>
+            <aixm:elevation uom="FT">11</aixm:elevation>
+            <aixm:verticalDatum>WGS-84</aixm:verticalDatum>
+          </aixm:ElevatedPoint>
+        </aixm:ARP>
+
+        <aixm:directionFromCity uom="DEG">45</aixm:directionFromCity>
+        <aixm:distanceFromCity uom="NM">10.8</aixm:distanceFromCity>
+
+        <aixm:referenceTemperature uom="C">13.5</aixm:referenceTemperature>
+        
+        <aixm:geoidUndulation uom="FT">-60</aixm:geoidUndulation>
+
+        <aixm:magneticVariation uom="DEG">6</aixm:magneticVariation>
+        <aixm:magneticVariationChange>0.06</aixm:magneticVariationChange>
+        <aixm:magneticVariationEpoch>2025</aixm:magneticVariationEpoch>
+
+        <aixm:availability>
+          <aixm:AirportHeliportAvailability>
+            <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+            <aixm:usage>
+              <aixm:Usage>
+                <aixm:flightRuleType>IFR</aixm:flightRuleType>
+              </aixm:Usage>
+            </aixm:usage>
+            <aixm:usage>
+              <aixm:Usage>
+                <aixm:flightRuleType>VFR</aixm:flightRuleType>
+              </aixm:Usage>
+            </aixm:usage>
+          </aixm:AirportHeliportAvailability>
+        </aixm:availability>
+
+      </aixm:AirportHeliportTimeSlice>
+    </aixm:timeSlice>
+  </aixm:AirportHeliport>
+
+</aixm:BasicMessage>
